@@ -5,7 +5,15 @@ __pycache__/
 .venv/
 venv/
 env/
+
 output/
+output_ai/
 *.log
+
+.env
+.env.*
+
+evidence/
+
 .DS_Store
 Thumbs.db
