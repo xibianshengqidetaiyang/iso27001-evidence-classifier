@@ -1,0 +1,349 @@
+# ISO27001 AI 初步审核报告
+
+- AI 审核条目数：15
+- 说明：以下为 AI 初步审核意见，不能替代人工最终结论。
+
+## 2.20BY-ISMS-JL-07-**.docx -> 5.2 方针
+
+- 规则分数：21.783（高）
+- AI 相关性：high
+- 初步审核结果：uncertain
+- AI 置信度：0.4
+- 文档类型猜测：other
+- 证据强度：medium
+- 需要人工复核：True
+- 原因：
+  - 文档提到信息安全管理体系方针，但未提供批准的最新版方针文件。
+  - 未见直接发布或可获取记录，仅通过评审输入间接引用。
+  - 员工培训/宣导记录未在证据中明确显示。
+- 缺口：
+  - 批准的最新版信息安全方针文件缺失。
+  - 方针发布或可获取记录未见。
+  - 员工培训/宣导记录缺失。
+  - 方针年度复核或更新记录缺失。
+- 建议补证：
+  - 提供批准的最新版信息安全方针文件。
+  - 提供方针发布或可获取的正式记录。
+  - 提供员工培训/宣导的详细记录。
+  - 提供方针年度复核或更新的记录。
+
+## 2.20BY-ISMS-JL-**.docx -> 9.3.2 管理评审输入
+
+- 规则分数：20.477（高）
+- AI 相关性：high
+- 初步审核结果：uncertain
+- AI 置信度：0.5
+- 文档类型猜测：procedure
+- 证据强度：weak
+- 需要人工复核：True
+- 原因：
+  - 提到管理评审输入内容但无实际证据支持
+  - 版本日期为2026年，可能不反映当前状态
+  - 责任分工和审批信息不明确
+- 缺口：
+  - 完整的输入资料包
+  - 前次管理评审行动跟踪记录
+  - 实际风险评估和处置结果
+- 建议补证：
+  - 管理评审会议纪要
+  - 风险评估报告
+  - 绩效测量数据
+
+## 2.20BY-ISMS-JL-**.docx -> 9.3 管理评审
+
+- 规则分数：20.366（高）
+- AI 相关性：high
+- 初步审核结果：uncertain
+- AI 置信度：0.4
+- 文档类型猜测：other
+- 证据强度：medium
+- 需要人工复核：True
+- 原因：
+  - 文档包含管理评审计划、输入和输出内容，但缺少实际评审纪要或结论。
+  - 评审日期为未来日期，表明实际评审可能尚未发生。
+- 缺口：
+  - 实际管理评审纪要或结论未提供
+  - 输出跟踪记录未提供
+  - 责任分工和行动项的详细信息不明确
+- 建议补证：
+  - 管理评审会议纪要
+  - 输出跟踪记录
+  - 评审结论和决策文件
+
+## 3.20BY-ISMS-JL-**.docx -> A.5.31 法律、法规、监管与合同要求
+
+- 规则分数：22.809（高）
+- AI 相关性：medium
+- 初步审核结果：uncertain
+- AI 置信度：0.4
+- 文档类型猜测：minutes
+- 证据强度：weak
+- 需要人工复核：True
+- 原因：
+  - Evidence mentions A.5.31 in the audit purpose but does not provide direct evidence of compliance.
+  - No specific legal/regulatory requirements list or controlled versions provided.
+  - Responsibility and approval details are not clearly stated in the document.
+- 缺口：
+  - Applicability statement (SoA) for A.5.31 not provided.
+  - Legal/regulatory requirements list missing.
+  - Version date, approval person, and responsibility分工 unclear.
+  - Compliance review records not present.
+- 建议补证：
+  - SoA document for A.5.31.
+  - List of applicable legal and regulatory requirements.
+  - Records of compliance reviews or updates.
+  - Formal controlled versions of relevant policies or procedures.
+
+## 3.20BY-ISMS-JL-**.docx -> 9.2 内部审核
+
+- 规则分数：21.316（高）
+- AI 相关性：high
+- 初步审核结果：uncertain
+- AI 置信度：0.4
+- 文档类型猜测：procedure
+- 证据强度：medium
+- 需要人工复核：True
+- 原因：
+  - 文档提供了内部审核计划，但缺少审核实施记录、审核报告和不符合项记录、整改跟踪记录。
+  - 计划中包含审批信息，但审核日期为未来日期，可能影响证据的时效性。
+- 缺口：
+  - 审核实施记录缺失
+  - 审核报告缺失
+  - 不符合项记录缺失
+  - 整改跟踪记录缺失
+- 建议补证：
+  - 内部审核报告
+  - 不符合项记录表
+  - 整改跟踪记录
+  - 审核实施日志
+
+## 3.20BY-ISMS-JL-**.docx -> 10.2 不符合和纠正措施
+
+- 规则分数：20.464（高）
+- AI 相关性：high
+- 初步审核结果：uncertain
+- AI 置信度：0.4
+- 文档类型猜测：procedure
+- 证据强度：medium
+- 需要人工复核：True
+- 原因：
+  - The provided document is an internal audit plan that references the verification of corrective action effectiveness but lacks specific evidence of actual nonconformities, root cause analyses, or corrective action records.
+  - The document describes planned activities but does not demonstrate implementation or closure of any corrective actions.
+- 缺口：
+  - Evidence of nonconformity register or CAPA台账
+  - Root cause analysis records for any nonconformities
+  - Corrective action implementation details
+  - Effectiveness verification and closure records
+- 建议补证：
+  - Review and provide the actual nonconformity register or CAPA log
+  - Include examples of root cause analysis for recent nonconformities
+  - Show corrective action implementation plans and verification reports
+  - Provide evidence of effectiveness validation and closure
+
+## 6.20BY-ISMS-JL-**.docx -> A.7.13 设备维护
+
+- 规则分数：19.3（高）
+- AI 相关性：high
+- 初步审核结果：uncertain
+- AI 置信度：0.5
+- 文档类型猜测：record
+- 证据强度：weak
+- 需要人工复核：True
+- 原因：
+  - Evidence mentions a nonconformity for A.7.13 (e.g., unpatched servers) but does not confirm full implementation or compliance.
+  - No formal controlled version of equipment maintenance procedures or plans is provided.
+  - Responsibility and approval details are unclear in the evidence.
+- 缺口：
+  - Applicability statement for A.7.13 not included.
+  - Formal equipment maintenance standard or procedure document not shown.
+  - Evidence of maintenance schedules, work orders, or authorization records missing.
+  - Version dates and approval information not clear.
+- 建议补证：
+  - Official SoA for A.7.13.
+  - Latest version of equipment maintenance policy or procedure.
+  - Maintenance plan and work order logs.
+  - Records of maintenance activities and approvals.
+
+## 6.20BY-ISMS-JL-**.docx -> 10.2 不符合和纠正措施
+
+- 规则分数：18.614（高）
+- AI 相关性：high
+- 初步审核结果：uncertain
+- AI 置信度：0.5
+- 文档类型猜测：record
+- 证据强度：medium
+- 需要人工复核：True
+- 原因：
+  - 证据显示了不符合项报告、纠正措施和有效性验证，但缺少根因分析记录和CAPA台账，这不符合控制项10.2的要求。
+  - 控制项要求缺任意一项证据一票否决，但现有证据不完整，不能等同于已落实。
+- 缺口：
+  - 根因分析记录
+  - CAPA台账
+- 建议补证：
+  - 根因分析报告
+  - CAPA台账
+  - 完整的CAPA台账记录
+
+## 6.20BY-ISMS-**.docx -> 9.3.2 管理评审输入
+
+- 规则分数：17.147（高）
+- AI 相关性：high
+- 初步审核结果：partial
+- AI 置信度：0.6
+- 文档类型猜测：record
+- 证据强度：medium
+- 需要人工复核：True
+- 原因：
+  - 证据显示了具体的不符合项和纠正措施，但缺少完整的管理评审输入元素如绩效、风险状态、目标完成等。
+  - 版本日期和审批信息不清晰，责任分工虽有提及但不全面。
+- 缺口：
+  - 整体绩效数据
+  - 风险状态评估
+  - 目标完成情况
+  - 前次评审行动跟踪
+  - 内外部议题变化
+- 建议补证：
+  - 管理评审输入清单
+  - 绩效报告
+  - 风险评估记录
+  - 审核结果汇总
+  - 行动跟踪记录
+
+## 6.20BY-ISMS-JL-**.docx -> 9.3 管理评审
+
+- 规则分数：19.466（高）
+- AI 相关性：high
+- 初步审核结果：uncertain
+- AI 置信度：0.4
+- 文档类型猜测：procedure
+- 证据强度：medium
+- 需要人工复核：True
+- 原因：
+  - 证据显示有管理评审改进计划，但未提供完整的管理评审证据，如输入材料、纪要或结论、输出跟踪记录。
+  - 关键词匹配管理评审，但证据不完整，无法确认是否已落实。
+- 缺口：
+  - 管理评审输入材料
+  - 管理评审纪要或结论
+  - 输出跟踪记录
+- 建议补证：
+  - 管理评审会议纪要
+  - 管理评审输入文档
+  - 输出跟踪报告
+
+## 6.20BY-ISMS-JL-**.docx -> 6.2 信息安全目标及其实现策划
+
+- 规则分数：13.875（高）
+- AI 相关性：high
+- 初步审核结果：uncertain
+- AI 置信度：0.4
+- 文档类型猜测：record
+- 证据强度：medium
+- 需要人工复核：True
+- 原因：
+  - 证据是改进计划，但控制6.2要求正式发布的信息安全目标清单、实现计划、监测记录和复审记录。证据中提到完成时间，但未提及信息安全目标本身或其可测量性。
+  - 证据不完整，仅部分匹配核心关键词，但未覆盖所有要求元素。
+- 缺口：
+  - 正式发布的信息安全目标清单缺失
+  - 信息安全目标实现计划未提供
+  - 最近12个月目标监测记录缺失
+  - 目标复审或更新记录缺失
+- 建议补证：
+  - 正式的信息安全目标清单文档
+  - 信息安全目标实现计划文档
+  - 目标监测记录报告
+  - 目标复审记录
+
+## 6.20BY-ISMS-JL-**.docx -> 4.4 信息安全管理体系
+
+- 规则分数：11.714（高）
+- AI 相关性：medium
+- 初步审核结果：partial
+- AI 置信度：0.45
+- 文档类型猜测：other
+- 证据强度：weak
+- 需要人工复核：True
+- 原因：
+  - 文件仅显示管理评审改进计划，未提供ISMS总览、受控文件目录、内审记录或管理评审会议纪要等核心证据
+  - 文件中提及的改进措施（全员培训）无实际执行记录或验证结果
+- 缺口：
+  - ISMS总览文件缺失
+  - 受控文件与记录目录未见
+  - 最近12个月内审记录缺失
+  - 管理评审会议纪要缺失
+  - 体系运行责任矩阵未见
+- 建议补证：
+  - ISMS手册或架构文件
+  - 受控文件清单
+  - 最近管理评审会议纪要
+  - 年度ISMS改进计划
+  - 职责分配矩阵
+
+## 7.20BY-ISMS-JL-**.docx -> 5.2 方针
+
+- 规则分数：22.759（高）
+- AI 相关性：high
+- 初步审核结果：uncertain
+- AI 置信度：0.5
+- 文档类型猜测：report
+- 证据强度：weak
+- 需要人工复核：True
+- 原因：
+  - 证据文本是内部审核报告，间接提到信息安全方针，但未直接提供批准的最新版方针文件
+  - 无明确的批准记录、版本日期或责任分工信息
+  - 审核结论提到方针基本实现，但未确认具体落实细节
+- 缺口：
+  - 批准的最新版信息安全方针文件
+  - 方针发布或可获取记录
+  - 员工培训/宣导签收记录
+  - 方针年度复核或更新记录
+- 建议补证：
+  - 信息安全方针文件的正式版本
+  - 方针批准和发布记录
+  - 员工培训签收表或记录
+  - 方针年度复核报告
+
+## 7.20BY-ISMS-JL-**.docx -> 9.2 内部审核
+
+- 规则分数：20.123（高）
+- AI 相关性：high
+- 初步审核结果：partial
+- AI 置信度：0.6
+- 文档类型猜测：report
+- 证据强度：medium
+- 需要人工复核：True
+- 原因：
+  - The evidence includes a reference to an internal audit plan and report, but does not provide a standalone copy of the plan or detailed implementation records.
+  - The report mentions nonconformities and corrective actions but lacks specific tracking details and verification.
+  - Version dates and responsibility for the audit process are not clearly documented in the evidence.
+- 缺口：
+  - Specific list of nonconformities with associated corrective actions
+  - Evidence of approval and signatures for the audit report
+  - Clear version dates for the internal audit plan and report
+- 建议补证：
+  - Copy of the internal audit plan or scheme
+  - Detailed records of nonconformities and their resolution
+  - Signatures and approval logs for the audit documentation
+
+## 7.20BY-ISMS-JL-**.docx -> 4.2 理解相关方的需求和期望
+
+- 规则分数：20.12（高）
+- AI 相关性：high
+- 初步审核结果：uncertain
+- AI 置信度：0.4
+- 文档类型猜测：report
+- 证据强度：weak
+- 需要人工复核：True
+- 原因：
+  - 审核报告提到相关方和法律法规，但未提供具体的《相关方及要求识别矩阵》或清单。
+  - 没有看到纳入ISMS的要求映射与落实记录。
+  - 证据文本为内部审核报告，未直接包含控制项4.2的落实记录。
+- 缺口：
+  - 最新版《相关方及要求识别矩阵》
+  - 法律法规/监管/合同要求清单
+  - 至少3类外部要求来源原件或截图
+  - 纳入ISMS的要求映射与落实记录
+- 建议补证：
+  - 提供最新版《相关方及要求识别矩阵》
+  - 提供法律法规/监管/合同要求清单
+  - 提供至少3类外部要求来源的原件或截图
+  - 提供纳入ISMS的要求映射与落实记录
