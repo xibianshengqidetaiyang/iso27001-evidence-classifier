@@ -1,70 +1,54 @@
-# Evaluation Notes
+# Demo 输出结果人工评估说明
 
-## Purpose
-This file records a lightweight manual review of the demo outputs, in order to compare:
+## 一、评估目的
+本文件用于对 Demo 输出结果开展轻量级人工评估，核心对比以下内容：
+1. 预期控制项映射
+2. 规则分类结果
+3. 本地 AI 初步审核结果
 
-- expected control mappings
-- rule-based classification results
-- local AI preliminary audit results
+**重要说明**：本次评估**不输出最终审计结论**，仅判断工作流方向是否合理、能否为人工复核提供有效支持。
 
-The goal is not to produce a final audit conclusion, but to evaluate whether the workflow is directionally correct and useful for human review.
+## 二、评估样例
+### 样例 1
+- **文件**：`management_review_plan_demo.md`
+- **预期主要控制项**：9.3 管理评审、9.3.2 管理评审输入
+- **观察点**：
+  1. 规则分类阶段需优先识别管理评审相关条款
+  2. 若文件为「计划」而非完整记录，AI 阶段可能输出 `partial`（部分相关）或 `uncertain`（不确定）结果
+- **人工判断标准**：9.3 / 9.3.2 出现在 Top 结果中，即视为方向合理
 
----
+### 样例 2
+- **文件**：`internal_audit_report_demo.md`
+- **预期主要控制项**：9.2 内部审核、10.2 不符合和纠正措施
+- **观察点**：
+  1. 规则分类阶段需优先识别内部审核相关条款
+  2. 若报告提及问题、整改、跟踪、改进建议，AI 阶段需将 10.2 列为相关候选项
+- **人工判断标准**：9.2 为 Top 结果，且 10.2 作为相关候选项出现，即视为方向合理
 
-## Sample 1
-**File:** `management_review_plan_demo.md`  
-**Expected primary controls:**
-- 9.3 Management review
-- 9.3.2 Management review inputs
+## 三、结果有效性判定标准
+### （一）规则分类阶段
+满足以下条件即为有效：
+1. 预期主要控制项出现在 Top 结果中
+2. 支持单个文件映射多个相关条款
+3. 输出清晰可理解的命中原因及关键词
 
-**Observation:**
-- Rule-based stage should prioritize management review related clauses
-- AI stage may still mark the result as `partial` or `uncertain` if the file is only a plan and not a full record
+### （二）AI 初步审核阶段
+满足以下条件即为有效：
+1. 可区分「强相关证据」与「部分相关证据」
+2. 不仅凭单个文件武断判定「完全合规」
+3. 明确输出缺失点及需补充的证据建议
+4. 边界模糊场景输出 `needs_human_review`（需人工复核）类结果
 
-**Manual judgment:** Reasonable if 9.3 / 9.3.2 are among top results
+## 四、评估结论
+### （一）Demo 验证定位
+在 Demo 规模验证下，该工作流可作为：
+1. 证据初筛助手
+2. 候选控制项映射辅助工具
+3. 初步审核支持工具
 
----
-
-## Sample 2
-**File:** `internal_audit_report_demo.md`  
-**Expected primary controls:**
-- 9.2 Internal audit
-- 10.2 Nonconformity and corrective action
-
-**Observation:**
-- Rule-based stage should prioritize internal audit related clauses
-- AI stage may infer partial support for corrective action if the report mentions follow-up findings and improvement items
-
-**Manual judgment:** Reasonable if 9.2 is top-ranked and 10.2 appears as a related candidate
-
----
-
-## Notes on result interpretation
-
-### Rule-based stage
-The rule-based stage is considered useful if:
-- the main expected controls appear in the top results
-- the file can be mapped to multiple related clauses
-- the output contains understandable reasons and keywords
-
-### AI stage
-The AI stage is considered useful if:
-- it can distinguish between strong evidence and partial evidence
-- it does not overclaim full compliance from a single file
-- it can provide missing points and suggested additional evidence
-- it retains a `needs_human_review` style output for uncertain cases
-
----
-
-## Current conclusion
-For demo-scale validation, the workflow is useful as:
-
-- an evidence triage assistant
-- a candidate control mapping helper
-- a preliminary audit support tool
-
-It should still be combined with:
-- human review
-- evidence validity checks
-- cross-document verification
-- time-effectiveness checks
+### （二）真实场景使用要求
+实际审核中，需结合以下内容联合使用：
+1. 人工复核
+2. 证据有效性检查
+3. 跨文档交叉验证
+4. 时效性检查
